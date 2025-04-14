@@ -75,7 +75,7 @@ set_target_properties(ios-sdk-static PROPERTIES
     XCODE_ATTRIBUTE_MACH_O_TYPE "staticlib"
 
     # Provide a unique bundle identifier
-    MACOSX_FRAMEWORK_IDENTIFIER "org.maplibre.ios"
+    MACOSX_FRAMEWORK_IDENTIFIER "org.bemap.ios"
 
     # FIXME: versioning
     MACOSX_FRAMEWORK_BUNDLE_VERSION "1.0"

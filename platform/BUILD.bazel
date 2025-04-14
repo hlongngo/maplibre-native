@@ -27,7 +27,7 @@ objc_library(
         "darwin/src",
         "macos/src",
     ],
-    module_name = "MapLibre",
+    module_name = "BeMap",
     sdk_frameworks = [
         "Metal",
         "MetalKit",
@@ -202,7 +202,7 @@ objc_library(
         "//conditions:default": [],
     }),
     data = ["//platform/ios:resources"],
-    module_name = "MapLibre",
+    module_name = "BeMap",
     sdk_dylibs = [
         "libz",
         "libsqlite3",

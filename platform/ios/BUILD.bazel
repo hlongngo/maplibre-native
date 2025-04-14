@@ -90,8 +90,8 @@ public_hdrs = [
 ]
 
 apple_static_xcframework(
-    name = "MapLibre.static",
-    bundle_name = "MapLibre",
+    name = "BeMap.static",
+    bundle_name = "BeMap",
     ios = {
         "simulator": [
             "x86_64",
@@ -117,9 +117,9 @@ apple_bundle_version(
 )
 
 apple_xcframework(
-    name = "MapLibre.dynamic",
+    name = "BeMap.dynamic",
     bundle_id = "com.maplibre.mapbox",
-    bundle_name = "MapLibre",
+    bundle_name = "BeMap",
     data = glob([
         "resources/*.lproj/**",
         "resources/*.xcassets/**",
@@ -141,7 +141,7 @@ apple_xcframework(
 )
 
 ios_framework(
-    name = "MapLibre.link",
+    name = "BeMap.link",
     testonly = True,
     bundle_id = "com.maplibre.link",
     families = ["iphone"],
@@ -213,7 +213,7 @@ ios_application(
         "ipad",
     ],
     frameworks = [
-        "MapLibre.link",
+        "BeMap.link",
     ],
     infoplists = ["app/Info.plist"],
     minimum_os_version = "12.0",
