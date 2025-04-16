@@ -21,6 +21,7 @@ local.properties
 .cache
 compile_commands.json
 /build
+/output
 **/.idea
 **/.clwb
 /new_offline.db
@@ -57,3 +58,5 @@ out.png
 **/target/
 **/*.rs.bk
 **/*.profraw
+
+.cursorignore
